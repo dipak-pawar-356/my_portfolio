@@ -1,4 +1,4 @@
-import logo_2 from "./logo.svg";
+import logo_2 from "./logo_2.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
