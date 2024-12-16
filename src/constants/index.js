@@ -3,6 +3,7 @@ import {
   backend,
   creator,
   web,
+  event,
   javascript,
   java,
   C,
@@ -40,21 +41,26 @@ export const navLinks = [
 ];
 
 const services = [
+  
+  // {
+  //   title: "React Native Developer",
+  //   icon: mobile,
+  // },
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Java Developer",
+    icon: java,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Java Developer",
-    icon: java,
+    title: "Frontend Developer",
+    icon: web,
+  },
+  {
+    title: "Event Management",
+    icon: event,
   },
 ];
 
@@ -202,7 +208,7 @@ const projects = [
       },
     ],
     image: busTicketBookingImage, 
-    source_code_link: "https://github.com/", // Update with your actual GitHub link if available
+    source_code_link: "https://github.com/dipak-pawar-356/bus_ticket_booking", // Update with your actual GitHub link if available
   },
   {
     name: "Real-Time Chat Application (ConnectCraze)",
@@ -223,7 +229,7 @@ const projects = [
       },
     ],
     image: chatAppImage, 
-    source_code_link: "https://github.com/", // Update with your actual GitHub link if available
+    source_code_link: "https://github.com/dipak-pawar-356/connect_craze", // Update with your actual GitHub link if available
   },
   {
     name: "AI-Powered Mock Interview Taker",
@@ -244,8 +250,38 @@ const projects = [
       },
     ],
     image: mockInterviewImage, 
-    source_code_link: "https://github.com/", // Update with your actual GitHub link if available
+    source_code_link: "https://github.com/dipak-pawar-356/ai_mock_interview", // Update with your actual GitHub link if available
   },
+  {
+    name: "Uber Clone",
+    description:
+      "A feature-rich web application inspired by Uber, built to demonstrate ride-booking functionality. The platform includes dynamic user interfaces, real-time location tracking, and backend integration for managing rides, user authentication, and live location.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "express",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "mongoDB",
+        color: "orange-text-gradient",
+      },
+    ],
+    //image: uberCloneImage, // Replace with an actual image variable or path
+    source_code_link: "https://github.com/dipak-pawar-356/uber_clone", // Update with the actual GitHub link if available
+  },
+  
 ];
 
 

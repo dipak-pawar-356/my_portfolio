@@ -1,5 +1,5 @@
 import React from "react";
-import {Tilt} from "react-tilt";
+import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -24,7 +24,7 @@ const ServiceCard = ({ index, title, icon }) => (
         <img
           src={icon}
           //alt='web-development'
-          alt = {title}
+          alt={title}
           className='w-16 h-16 object-contain'
         />
 
@@ -48,14 +48,17 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a dedicated software developer with a strong background in Java, C++, 
+        and JavaScript, along with expertise in frameworks like React, Spring Boot, 
+        and Node.js. My experience spans building projects such as a Bus Ticket Booking 
+        System, Real-Time Chat Application, and AI-Powered Mock Interview Taker. 
+        I'm passionate about delivering scalable, efficient, and user-centric solutions 
+        while working collaboratively to address complex challenges. Let's work together 
+        to turn your innovative ideas into reality!
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+
+      <div className='mt-20 flex flex-wrap gap-10 justify-center items-center'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
